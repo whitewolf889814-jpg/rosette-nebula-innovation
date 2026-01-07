@@ -151,7 +151,39 @@
       <text x="100" y="112" text-anchor="middle" fill="#000" font-size="42" font-weight="700">RNI</text>
     </svg>
 
-    <h1>Rosette Nebula Innovation</h1>
+    <svg width="200" height="200" viewBox="0 0 200 200" style="margin-bottom:20px;">
+  <defs>
+    <radialGradient id="spaceGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb7d5"/>
+      <stop offset="40%" stop-color="#b86bff"/>
+      <stop offset="100%" stop-color="#1b0f3a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Stars -->
+  <circle cx="30" cy="40" r="2" fill="white"/>
+  <circle cx="170" cy="60" r="2" fill="white"/>
+  <circle cx="150" cy="150" r="1.5" fill="white"/>
+  <circle cx="50" cy="160" r="1.5" fill="white"/>
+  <circle cx="120" cy="30" r="1.5" fill="white"/>
+
+  <!-- Rose Nebula -->
+  <circle cx="100" cy="100" r="55" fill="url(#spaceGlow)" opacity="0.9"/>
+
+  <!-- Rose petals (abstract) -->
+  <path d="M100 55
+           C80 75, 80 125, 100 145
+           C120 125, 120 75, 100 55Z"
+        fill="#ff6fae" opacity="0.7"/>
+
+  <path d="M55 100
+           C75 80, 125 80, 145 100
+           C125 120, 75 120, 55 100Z"
+        fill="#ff9acb" opacity="0.6"/>
+</svg>
+
+<h1>Rosette Nebula Innovation</h1>
+
     <p class="tagline">A multi-domain enterprise shaping technology, infrastructure, lifestyle, and finance — inspired by the cosmos.</p>
     <a href="#services" class="cta">Explore Our Universe</a>
   </div>
